@@ -1,0 +1,124 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+* {
+    font-family: montserrat;
+}
+ 
+
+a {
+    color: black;
+    text-decoration-line: none;
+}
+
+/******************************************
+/* NAVIGATION BAR
+/*******************************************/
+  .logo {
+    width: 55px;
+    margin-bottom: 10px;
+}
+
+.join {
+    color: #fcc008;
+    font-weight: 900;
+}
+
+.login {
+    font-size: 13px;
+}
+
+nav header p {
+    margin: 5px;
+}
+
+li {
+    list-style: none;
+    font-weight: 300;
+    padding-bottom: 15px;
+}
+
+ul {
+    padding: 0;
+}
+
+  /******************************************
+  /* MAIN SECTION
+  /*******************************************/
+.activision {
+    width: 100%;
+    float: left;
+}
+
+section span {
+    font-weight: 600;
+    font-size: 11px;
+    float: left;
+}
+
+h1 {
+    margin-bottom: 10px;
+    margin-top: 1px;
+    font-size: 36px;
+    font-weight: 900;
+}
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+aside div a h2 {
+    font-weight: 900;
+}
+
+aside div a span {
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+aside div {
+    border-bottom: solid grey 1px;
+    margin-bottom: 10px;
+    height: 140px;
+}
+
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  nav,section,aside {
+    float: left;
+  }
+
+  nav {
+    width: 12%;
+
+  }
+  section {
+    width: 60%;
+    padding-right: 55px;
+}
+
+aside {
+    width: 27%;
+}
+
+h3 {
+    float: none;
+}
