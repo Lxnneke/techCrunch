@@ -116,6 +116,57 @@ aside div {
 .techCrunchProOne {
     margin-top: 0;
 }
+/******************************************
+  /* BOTTOM HALF
+  /*******************************************/
+.image {
+    width: 325px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+article {
+    border-top: solid #f1f1f1 1px;
+    margin-left: 12%;
+    height: 275px;
+}
+
+.firstOne {
+    width: 29%;
+    float: left;
+}
+
+article a p {
+    width: 33%;
+    float: left;
+}
+
+.firstOne > h2 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 55px;
+}
+
+.author {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.time {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #828282;
+}
+
+.secondOne {
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 24px;
+}
+
   /******************************************
   /* ADDITIONAL STYLES
   /*******************************************/
