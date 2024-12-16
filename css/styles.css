@@ -191,3 +191,7 @@ aside {
 h3 {
     float: none;
 }
+
+aside div:hover {
+    background-color:#dddddd;
+}
